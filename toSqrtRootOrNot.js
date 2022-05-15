@@ -10,3 +10,20 @@ Notes
 The input array will always contain only positive numbers, and will never be empty or null.
 
 */
+
+function squareOrSquareRoot(array) {
+    let final = array.map((e)=> Math.sqrt(e) % 1 === 0? Math.pow(e, 0.5) : Math.pow(e, 2)
+       )
+     // go through the array
+     // check if it has square root
+     // if it does return that number 
+     // if it doesnt then square it
+     // return new array 
+     return final
+    
+   }
+   
+   // im gonna get an array of intergers
+   // we need to return an array of inters as well
+   // look at each index and check if it has a  square root if it is return it, if it doesnt square it 
+   
